@@ -1,0 +1,25 @@
+class math
+{
+    private int a;
+    private int b;
+    void add()
+    {
+        system.out.println("a+b");
+    }
+}
+class multiply extends math{
+    void mul()
+    {
+        System.out.println("a*b");
+    }
+}
+class maths
+{
+    public static void main(String[]ars)
+    {
+        multiply s=new multiply();
+        s.add();
+        s.mul();
+
+    }
+}
